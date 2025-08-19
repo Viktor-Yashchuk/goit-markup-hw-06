@@ -403,11 +403,6 @@ button {
   align-items: center;
 }
 
-.hero-banner-img {
-  width: 320px;
-  height: 432px;
-}
-
 .hero-title {
   margin: 0 auto;
   max-width: 216px;
@@ -465,11 +460,6 @@ button {
         rgba(46, 47, 66, 0.7)
       ),
       url("../images/hero/people-office-tab.jpg");
-  }
-
-  .hero-banner-img {
-    max-width: 768px;
-    height: 436px;
   }
 
   .hero-title {
@@ -565,10 +555,6 @@ button {
 
 /* benefits tablet */
 @media screen and (min-width: 768px) {
-  .benefits-container {
-    height: 312px;
-  }
-
   .benefits-list {
     row-gap: 72px;
     column-gap: 24px;
@@ -586,10 +572,6 @@ button {
 
 /* benefits desktop */
 @media screen and (min-width: 1158px) {
-  .benefits-container {
-    height: 224px;
-  }
-
   .section-benefits {
     padding: 120px 0;
   }
@@ -812,11 +794,6 @@ button {
 
 /* portfolio tablet */
 @media screen and (min-width: 768px) {
-  .portfolio-container {
-    width: 736px;
-    height: 1516px;
-  }
-
   .portfolio-list {
     row-gap: 72px;
     column-gap: 24px;
@@ -833,11 +810,6 @@ button {
 @media screen and (min-width: 1158px) {
   .section-portfolio {
     padding: 120px 0;
-  }
-
-  .portfolio-container {
-    width: 1128px;
-    height: 1000px;
   }
 
   .portfolio-list {
